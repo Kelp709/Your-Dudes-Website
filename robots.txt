@@ -1,0 +1,4 @@
+# Placeholder. Run `node tools/update-meta.js` after setting organization.siteUrl
+# in site-config.js to add your real sitemap address.
+User-agent: *
+Allow: /
