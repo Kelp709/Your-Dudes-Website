@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 720" width="640" height="720" role="img" aria-label="Two people sitting side by side on a bench in a lit doorway, with a lamp glowing above them.">
+  <style>
+    #light { animation: warm 2.6s ease-out both; }
+    @keyframes warm { from { opacity: 0.2; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { #light { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16263c"/>
+      <stop offset="1" stop-color="#1d3340"/>
+    </linearGradient>
+    <linearGradient id="room" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#F2B04A" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#E49A3E" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#2a3d4f" stop-opacity="0.2"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFD98A" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#FFD98A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="720" fill="url(#sky)"/>
+  <g id="light">
+    <circle cx="320" cy="600" r="360" fill="url(#halo)" opacity="0.55"/>
+    <path d="M120 720V330a200 200 0 0 1 400 0V720z" fill="url(#room)"/>
+    <circle cx="320" cy="200" r="120" fill="url(#halo)"/>
+  </g>
+  <path d="M120 720V330a200 200 0 0 1 400 0V720" fill="none" stroke="#F4F5F3" stroke-opacity="0.35" stroke-width="3"/>
+  <line x1="320" y1="0" x2="320" y2="150" stroke="#c9d3dc" stroke-width="3"/>
+  <path d="M286 190a34 34 0 0 1 68 0z" fill="#F4F5F3"/>
+  <circle cx="320" cy="194" r="12" fill="#FFE8B0"/>
+  <rect x="0" y="600" width="640" height="120" fill="#0E1A2B" opacity="0.92"/>
+  <rect x="170" y="556" width="300" height="16" rx="8" fill="#0A1220"/>
+  <rect x="196" y="572" width="14" height="40" rx="4" fill="#0A1220"/>
+  <rect x="430" y="572" width="14" height="40" rx="4" fill="#0A1220"/>
+  <circle cx="268" cy="434" r="32" fill="#0A1220"/>
+  <path d="M216 558v-62a52 52 0 0 1 104 0v62z" fill="#0A1220"/>
+  <circle cx="376" cy="424" r="34" fill="#0A1220"/>
+  <path d="M322 558v-70a54 54 0 0 1 108 0v70z" fill="#0A1220"/>
+</svg>
